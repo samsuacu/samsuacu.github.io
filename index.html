@@ -15,26 +15,6 @@
   <div class="container">
     <h1>List Akun E-Wallet D-PINDO</h1>
 
-    <label for="myInput" class="form-label">Silahkan Pilih Akun E-Walllet</label>
-    <div class="mb-3 row">
-      <div class="col-auto">
-        <input class="form-control" list="datalistOptions" id="myInput" placeholder="Type to search...">
-        <datalist id="datalistOptions">
-          <option value="088906244234">AFIYAH</option>
-          <option value="0899 0544234">AHMAD HUDORI</option>
-          <option value="083895944234">MUHLIS</option>
-          <option value="0881 5787468">WULAN SARI</option>
-          <option value="083811581787">ROBI GUNAWAN</option>
-          <option value="082112590622">SAMSU</option>
-        </datalist>
-      </div>
-      
-      <div class="col-auto">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="myFunction()">Salin</button>
-      </div>
-    </div>
-     
-  </div>
 
 <table>
 <tr>
@@ -52,22 +32,7 @@
 </table>
 
 
-  <script>
-  function myFunction() {
-    /* Get the text field */
-    var copyText = document.getElementById("myInput");
 
-    /* Select the text field */
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-    /* Copy the text inside the text field */
-    navigator.clipboard.writeText(copyText.value);
-    
-    /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
-  }
-  </script>
 
   <script>
 
@@ -81,14 +46,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
 
   </body>
 </html>
