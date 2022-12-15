@@ -174,6 +174,18 @@
       </div>
     </div>
 
+    <div class="d-flex text-muted pt-3">
+      <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+        <div class="d-flex justify-content-between">
+          <strong class="text-gray-dark">083895944234 an MUHLIS</strong>
+          <div>
+            <button onclick="copyMuhlis()" type="button" class="btn btn-sm btn-outline-primary">Copy</button>
+            <button onclick="copyAllMuhlis()" type="button" class="btn btn-sm btn-outline-success">CopyAll</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <small class="d-block text-end mt-3">
       <a href="#">All suggestions</a>
     </small>
@@ -183,15 +195,6 @@
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-      /* */
-      function copyOcot() {
-        navigator.clipboard.writeText
-          ("082112590622");
-      }
-      function copyAllOcot() {
-        navigator.clipboard.writeText
-          ("082112590622 an SAMSU");
-      }
 
       /* Samsu */
       function copySamsu() {
@@ -231,6 +234,16 @@
       function copyAllAfiah() {
         navigator.clipboard.writeText
           ("089906244234 an AFIAH");
+      }
+      
+      /* Muhlis */
+      function copyMuhlis() {
+        navigator.clipboard.writeText
+          ("083895944234");
+      }
+      function copyAllMuhlis() {
+        navigator.clipboard.writeText
+          ("083895944234 an MUHLIS");
       }
     </script>
 
