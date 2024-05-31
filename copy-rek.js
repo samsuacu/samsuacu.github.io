@@ -95,7 +95,7 @@ function copyAnti() {
   navigator.clipboard.writeText
     ("085717206641");
 }
-function copyBancet() {
+function copyUlisdani() {
   navigator.clipboard.writeText
     ("088905989507");
 }
