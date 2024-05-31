@@ -99,7 +99,7 @@ function copyBancet() {
   navigator.clipboard.writeText
     ("088905989507");
 }
-function copySandi() {
+function copyBhabeh() {
   navigator.clipboard.writeText
     ("083879723368");
 }
