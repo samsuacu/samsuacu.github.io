@@ -99,7 +99,7 @@
     
     <!-- Custom styles for this template -->
     <link href="../assets/css/offcanvas-navbar.css" rel="stylesheet">
-
+    <link href="../assets/dist/css/sticky-footer.css" rel="stylesheet">
     <link href="../assets/dist/css/font/bootstrap-icons.min.css" rel="stylesheet" >
 
   </head>
@@ -121,7 +121,7 @@
         <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
       </symbol>
     </svg>
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    <div class="dropdown position-fixed bottom-0 end-0 mb-2 me-3 bd-mode-toggle">
       <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
               id="bd-theme"
               type="button"
@@ -169,22 +169,39 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Notifications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Switch account</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">DANA</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../index.html">DANA</a></li>
+                <li><a class="dropdown-item" href="dana-conf.html">DANA CONF</a></li>
+                <li><a class="dropdown-item" href="dana-infini.html">DANA INFINI</a></li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Rekening Bank</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="rek-bca.html">BCA</a></li>
+                <li><a class="dropdown-item" href="rek-bri.html">BRI</a></li>
+                <li><a class="dropdown-item" href="rek-bni.html">BNI</a></li>
+                <li><a class="dropdown-item" href="rek-mandiri.html">Mandiri</a></li>
               </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Rekening Digital</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="sebank.html">SeaBank</a></li>
+                <li><a class="dropdown-item" href="neobank.html">neobank</a></li>
+                <li><a class="dropdown-item" href="jagobank.html">Jago Bank</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gopay.html">GoPay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ovo.html">OVO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="linkaja.html">LinkAja</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -222,10 +239,313 @@
       </div>
 
       <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div></div>
+        <!-- Bayua -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseBayua" aria-expanded="false" aria-controls="flush-collapseBayua">
+              11. BCA BAYU
+            </button>
+          </h2>
+          <div id="flush-collapseBayua" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Bayua26</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 8330320126 BAYU</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyBayua()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Hendar -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseHendar" aria-expanded="false" aria-controls="flush-collapseHendar">
+              10. BNI SUHENDAR
+            </button>
+          </h2>
+          <div id="flush-collapseHendar" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Hendar85</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 1799559085 SUHENDAR</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyHendar()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Jayajp -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJayajp" aria-expanded="false" aria-controls="flush-collapseJayajp">
+              09. MDR NURJAYA
+            </button>
+          </h2>
+          <div id="flush-collapseJayajp" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Jayajp13</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 1760000248813 NURJAYA</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyJayajp()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Sambri -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSambri" aria-expanded="false" aria-controls="flush-collapseSambri">
+              08. BRI SAMSU
+            </button>
+          </h2>
+          <div id="flush-collapseSambri" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Sambri31</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 080201073019531 SAMSU</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copySambri()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Omin -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOmin" aria-expanded="false" aria-controls="flush-collapseOmin">
+              07. OMIN
+            </button>
+          </h2>
+          <div id="flush-collapseOmin" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Omin88</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 088809052188 OMIN</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyOmin()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Uutk -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseUutk" aria-expanded="false" aria-controls="flush-collapseUutk">
+              06. UUT KUSWENDI
+            </button>
+          </h2>
+          <div id="flush-collapseUutk" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Uutk29</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 085215093829 UUT KUSWENDI</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyUutk()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Asmara -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAsmara" aria-expanded="false" aria-controls="flush-collapseAsmara">
+              05. BAYU
+            </button>
+          </h2>
+          <div id="flush-collapseAsmara" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Asmara33</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 085892979633 BAYU</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyAsmara()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Cuplis -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseCuplis" aria-expanded="false" aria-controls="flush-collapseCuplis">
+              04. SUPRIYANA
+            </button>
+          </h2>
+          <div id="flush-collapseCuplis" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Cuplis41</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 0887433101841 SUPRIYANA</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyCuplis()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Gembel -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGembel" aria-expanded="false" aria-controls="flush-collapseGembel">
+              03. SUHENDAR
+            </button>
+          </h2>
+          <div id="flush-collapseGembel" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Gembel40</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 081901844540 SUHENDAR</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyGembel()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Umilah -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseUmilah" aria-expanded="false" aria-controls="flush-collapseUmilah">
+              02. UMILAH
+            </button>
+          </h2>
+          <div id="flush-collapseUmilah" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Umilah92</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 085718533892 UMILAH</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyUmilah()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Aria -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAria" aria-expanded="false" aria-controls="flush-collapseAria">
+              01. ARIA DARMAWAN
+            </button>
+          </h2>
+          <div id="flush-collapseAria" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body py-2 ps-2 pe-3">
+              <div class="container px-0" style="font-size:0.8em">
+                <div class="row">
+                  <div class="col col-2"><code>ID</code></div>
+                  <div class="col col-9 text-left px-0">: Aria1400</div>
+                  <div class="col col-1 "></div>
+                </div>
+                <div class="row ">
+                  <div class="col col-2 "><code>DANA</code></div>
+                  <div class="col col-9 text-left px-0">: 085814005871 ARIA DARMAWAN</div>
+                  <div class="col col-1  text-end px-0">
+                    <button onclick="copyAria()" type="button" class="btn btn-sm btn-outline-primary py-0" style="font-size:1em"><i class="bi-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         
       </div><!-- End Accordion -->
 
     </main><!-- End Countainer -->
+
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+      <div class="container">
+        <span class="text-body-secondary"><i class="bi bi-c-circle"> 2024</i></span>
+      </div>
+    </footer>
   </body>
 
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
