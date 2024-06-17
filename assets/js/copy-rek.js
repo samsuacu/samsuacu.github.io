@@ -124,7 +124,7 @@ function copyOmin() {
 }
 function copyUutk() {
   navigator.clipboard.writeText
-    ("081213632922");
+    ("085215093829");
 }
 function copyAsmara() {
   navigator.clipboard.writeText
