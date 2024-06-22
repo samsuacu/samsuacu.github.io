@@ -172,7 +172,7 @@ function copyMaryam() {
   navigator.clipboard.writeText
     ("089630367095");
 }
-function cipyAbol() {
+function copyAbol() {
   navigator.clipboard.writeText
     ("083151716189");
 }
