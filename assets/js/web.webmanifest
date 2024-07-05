@@ -12,5 +12,23 @@
     "start_url": "/",
     "display": "fullscreen",
     "theme_color": "#FF5733",
-    "background_color": "#900C3F"
+    "background_color": "#900C3F",
+    "shortcuts": [
+    {
+      "name": "Play Later",
+      "description": "View the list of podcasts you saved for later",
+      "url": "/",
+      "icons": [
+        {
+          "src": "assets/brand/favicon_io/android-chrome-512x512.png",
+          "type": "image/png/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Subscriptions",
+      "description": "View the list of podcasts you listen to",
+      "url": "/"
+    }
+  ]
 }
