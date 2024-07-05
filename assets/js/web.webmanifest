@@ -9,7 +9,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/",
+    "start_url": "https://samsuacu.github.io/",
     "display": "fullscreen",
     "theme_color": "#FF5733",
     "background_color": "#900C3F"
