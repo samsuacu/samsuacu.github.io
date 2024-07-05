@@ -1,7 +1,7 @@
 {
-    "name": "SamApp",
-    "short_name": "PWA",
-    "description": "Web Aplikasi",
+    "name": "SamApp2",
+    "short_name": "PWA2",
+    "description": "Web Aplikasi2",
     "icons": [
         {
             "src": "assets/brand/favicon_io/android-chrome-192x192.png",
@@ -9,7 +9,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "https://samsuacu.github.io/",
+    "start_url": "/",
     "display": "fullscreen",
     "theme_color": "#FF5733",
     "background_color": "#900C3F"
