@@ -188,7 +188,7 @@ function copyTohir() {
 /* DANA */
 function copyPeot() {
   navigator.clipboard.writeText
-    ("081398601136 ");
+    ("081398601136");
 }
 function copyAnti() {
   navigator.clipboard.writeText
