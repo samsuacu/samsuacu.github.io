@@ -152,6 +152,15 @@ function copyAria() {
 }
 
 /* DANA CONFIRM */
+function copyRowi() {
+  navigator.clipboard.writeText
+    ("083871730484");
+}
+/* Mae */
+function copyMae() {
+  navigator.clipboard.writeText
+    ("083807414835");
+}
 function copyNjay() {
   navigator.clipboard.writeText
     ("083899376707");
@@ -242,9 +251,9 @@ function copyGugun() {
   navigator.clipboard.writeText
     ("083876060649");
 }
-function copyRowi() {
+function copyAyuhan() {
   navigator.clipboard.writeText
-    ("083871730484");
+    ("08567045691");
 }
 function copyEmen() {
   navigator.clipboard.writeText
@@ -310,10 +319,10 @@ function copyWulan() {
   navigator.clipboard.writeText
     ("08815787468");
 }
-/* Mae */
-function copyMae() {
+/* Nanas */
+function copyNanas() {
   navigator.clipboard.writeText
-    ("083807414835");
+    ("08558381502");
 }
 /* Samsu */
 function copySamsu() {
