@@ -5,16 +5,39 @@ function name() {
     ("Nomor");
 }
 */
-/* REKNING BNI */
-function copyEndi() {
+/* REKNING MANDIRI */
+function copyItha() {
   navigator.clipboard.writeText
-    ("1796787548");
-}
-function copyBahrul() {
+    ("901699024090");
+}function copySaron() {
   navigator.clipboard.writeText
-    ("1783796411");
+    ("901679646757");
+}function copyAblis() {
+  navigator.clipboard.writeText
+    ("901165915197");
+}function copyGusram() {
+  navigator.clipboard.writeText
+    ("901209371429");
+}function copyArielah() {
+  navigator.clipboard.writeText
+    ("901204281102");
+}function copyNotna() {
+  navigator.clipboard.writeText
+    ("901813874005");
+}function copyLiplip() {
+  navigator.clipboard.writeText
+    ("901161838409");
+}function copySiabdul() {
+  navigator.clipboard.writeText
+    ("901373534266");
+}function copyBulum() {
+  navigator.clipboard.writeText
+    ("901288253674");
 }
-
+function copyAcus() {
+  navigator.clipboard.writeText
+    ("901206202818");
+}
 /* REKNING MANDIRI */
 function copyKholis() {
   navigator.clipboard.writeText
@@ -35,6 +58,12 @@ function copyPutri() {
 function copySamacum() {
   navigator.clipboard.writeText
     ("1760003562806");
+}
+
+/* REKNING CIMB */
+function copyCagur() {
+  navigator.clipboard.writeText
+    ("763797632000");
 }
 
 /* REKNING BRI */
@@ -69,6 +98,16 @@ function copyIndra() {
 function copyBuloh() {
   navigator.clipboard.writeText
     ("762001023575538");
+}
+
+/* REKNING BNI */
+function copyEndi() {
+  navigator.clipboard.writeText
+    ("1796787548");
+}
+function copyBahrul() {
+  navigator.clipboard.writeText
+    ("1783796411");
 }
 
 /* REKNING BCA */
@@ -337,3 +376,4 @@ function copySamsu() {
   navigator.clipboard.writeText
     ("082112590622");
 }
+
