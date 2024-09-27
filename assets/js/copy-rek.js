@@ -235,25 +235,33 @@ function copyMilah() {
   navigator.clipboard.writeText
     ("085693069099");
 }
-function copyAri() {
-  navigator.clipboard.writeText
-    ("085694798957");
-}
 function copyOgi() {
   navigator.clipboard.writeText
     ("083153491889");
 }
-function copyEnos() {
+function copyAri() {
   navigator.clipboard.writeText
-    ("083874881715");
+    ("085694798957");
+}
+function copyOnione() {
+  navigator.clipboard.writeText
+    ("083844024991");
+}
+function copyPeco() {
+  navigator.clipboard.writeText
+    ("088224869648");
+}
+function copyAyuhan() {
+  navigator.clipboard.writeText
+    ("08567045691");
 }
 function copyGugun() {
   navigator.clipboard.writeText
     ("083876060649");
 }
-function copyAyuhan() {
+function copyEnos() {
   navigator.clipboard.writeText
-    ("08567045691");
+    ("083874881715");
 }
 function copyEmen() {
   navigator.clipboard.writeText
@@ -329,4 +337,3 @@ function copySamsu() {
   navigator.clipboard.writeText
     ("082112590622");
 }
-
