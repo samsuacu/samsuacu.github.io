@@ -39,6 +39,18 @@ function copyAcus() {
     ("901206202818");
 }
 /* REKNING MANDIRI */
+function copyNurha() {
+  navigator.clipboard.writeText
+    ("1640006000212");
+}
+function copySitobrut() {
+  navigator.clipboard.writeText
+    ("1760004944060");
+}
+function copyReyon() {
+  navigator.clipboard.writeText
+    ("1760004842413");
+}
 function copyKholis() {
   navigator.clipboard.writeText
     ("1760004362958");
@@ -60,20 +72,22 @@ function copySamacum() {
     ("1760003562806");
 }
 
-/* REKNING CIMB */
-function copyCagur() {
-  navigator.clipboard.writeText
-    ("763797632000");
-}
-
 /* REKNING BRI */
-function copySambri() {
+function copyIbor() {
   navigator.clipboard.writeText
-    ("080201073019531");
+    ("762001034906536");
+}
+function copyAceng() {
+  navigator.clipboard.writeText
+    ("762001027433534");
 }
 function copySayogi() {
   navigator.clipboard.writeText
     ("762001011559504");
+}
+function copySambri() {
+  navigator.clipboard.writeText
+    ("080201073019531");
 }
 function copyKurn() {
   navigator.clipboard.writeText
@@ -111,17 +125,9 @@ function copyBahrul() {
 }
 
 /* REKNING BCA */
-function copySitimila() {
+function copyBaris() {
   navigator.clipboard.writeText
-    ("8831615885");
-}
-function copyHidayat() {
-  navigator.clipboard.writeText
-    ("8831197714");
-}
-function copyDhandhan() {
-  navigator.clipboard.writeText
-    ("8831861461");
+    ("1720206397");
 }
 function copySmaulana() {
   navigator.clipboard.writeText
@@ -141,9 +147,13 @@ function copyRobi() {
 }
 
 /* DANA INFINI */
-function copyIrmawan() {
+function copyAhyy() {
   navigator.clipboard.writeText
-    ("8831720263");
+    ("089630367095");
+}
+function copyWani() {
+  navigator.clipboard.writeText
+    ("083870313471");
 }
 function copyBayua() {
   navigator.clipboard.writeText
@@ -152,6 +162,14 @@ function copyBayua() {
 function copyHendar() {
   navigator.clipboard.writeText
     ("1799559085");
+}
+function copyCagur() {
+  navigator.clipboard.writeText
+    ("763797632000");
+}
+function copyIwapy() {
+  navigator.clipboard.writeText
+    ("7485299165");
 }
 function copyJayajp() {
   navigator.clipboard.writeText
@@ -191,14 +209,25 @@ function copyAria() {
 }
 
 /* DANA CONFIRM */
+function copyGendut() {
+  navigator.clipboard.writeText
+    ("088293375798");
+}
+function copyEwok() {
+  navigator.clipboard.writeText
+    ("085710759015");
+}
+function copyHidayat() {
+  navigator.clipboard.writeText
+    ("8831197714");
+}
+function copyDhandhan() {
+  navigator.clipboard.writeText
+    ("8831861461");
+}
 function copyRowi() {
   navigator.clipboard.writeText
     ("083871730484");
-}
-/* Mae */
-function copyMae() {
-  navigator.clipboard.writeText
-    ("083807414835");
 }
 function copyNjay() {
   navigator.clipboard.writeText
@@ -234,10 +263,6 @@ function copyTohir() {
 }
 
 /* DANA */
-function copyPeot() {
-  navigator.clipboard.writeText
-    ("081398601136");
-}
 function copyAnti() {
   navigator.clipboard.writeText
     ("085717206641");
@@ -274,9 +299,17 @@ function copyMilah() {
   navigator.clipboard.writeText
     ("085693069099");
 }
-function copyOgi() {
+function copyEprass() {
   navigator.clipboard.writeText
-    ("083153491889");
+    ("0881025357411");
+}
+function copySimila() {
+  navigator.clipboard.writeText
+    ("082249798748");
+}
+function copyPeot() {
+  navigator.clipboard.writeText
+    ("081398601136");
 }
 function copyAri() {
   navigator.clipboard.writeText
@@ -311,10 +344,9 @@ function copyAhong() {
   navigator.clipboard.writeText
     ("082178365202");
 }
-/* Mega */
-function copyMega() {
+function copyOgi() {
   navigator.clipboard.writeText
-    ("083159377466");
+    ("083153491889");
 }
 /* Robi */
 function copyCucu() {
@@ -376,4 +408,3 @@ function copySamsu() {
   navigator.clipboard.writeText
     ("082112590622");
 }
-
