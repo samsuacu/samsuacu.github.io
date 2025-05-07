@@ -5,7 +5,10 @@ function name() {
     ("Nomor");
 }
 */
-/* REKNING MANDIRI */
+/* REKNING SEA */
+function copyNahloh() {
+  navigator.clipboard.writeText
+    ("901241964287");
 function copyItha() {
   navigator.clipboard.writeText
     ("901699024090");
