@@ -9,41 +9,53 @@ function name() {
 function copyNulud() {
   navigator.clipboard.writeText
     ("5859459267181708");
+}
 function copyNnacu() {
   navigator.clipboard.writeText
     ("5859458272391120");
+}
 function copyTari() {
   navigator.clipboard.writeText
     ("5859457154577913");
+}
 function copyNtsam() {
   navigator.clipboard.writeText
     ("5859458190545567");
-/* REKNING SEA */
+}
+/* REKNING SEABANK */
 function copyNahloh() {
   navigator.clipboard.writeText
     ("901241964287");
+}
 function copyItha() {
   navigator.clipboard.writeText
     ("901699024090");
-}function copySaron() {
+}
+function copySaron() {
   navigator.clipboard.writeText
     ("901679646757");
-}function copyAblis() {
+}
+function copyAblis() {
   navigator.clipboard.writeText
     ("901165915197");
-}function copyGusram() {
+}
+function copyGusram() {
   navigator.clipboard.writeText
     ("901209371429");
-}function copyArielah() {
+}
+function copyArielah() {
   navigator.clipboard.writeText
     ("901204281102");
-}function copyNotna() {
+}
+function copyNotna() {
   navigator.clipboard.writeText
     ("901813874005");
-}function copyLiplip() {
+}
+function copyLiplip() {
   navigator.clipboard.writeText
     ("901161838409");
-}function copySiabdul() {
+}
+function copySiabdul() {
   navigator.clipboard.writeText
     ("901373534266");
 }function copyBulum() {
