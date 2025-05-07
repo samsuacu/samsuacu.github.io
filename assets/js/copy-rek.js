@@ -5,6 +5,19 @@ function name() {
     ("Nomor");
 }
 */
+/* REKNING NEO */
+function copyNulud() {
+  navigator.clipboard.writeText
+    ("5859459267181708");
+function copyNnacu() {
+  navigator.clipboard.writeText
+    ("5859458272391120");
+function copyTari() {
+  navigator.clipboard.writeText
+    ("5859457154577913");
+function copyNtsam() {
+  navigator.clipboard.writeText
+    ("5859458190545567");
 /* REKNING SEA */
 function copyNahloh() {
   navigator.clipboard.writeText
